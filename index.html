@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--title tag-->
+        <title>Contact us</title>
+        <!--linking css and html-->
+        <link rel="stylesheet" href="styles.css">
+        <style></style>
+    </head>
+    <body>
+        <!--form tag-->
+        <form>
+            <b><h1>FEEDBACK FORM</h1></b>
+            <!--first name-->
+            <!--label tag-->
+            <label>First Name:-</label>
+            <!--input tag-->
+            <input for="First Name" type="text" required><br><br>
+            <!--last name-->
+            <label>Last Name:-</label>
+            <input for="Last Name" type="text" required><br><br>
+            <!--Date Of Birth-->
+            <label>Date Of Birth:-</label>
+            <input for="Date Of Birth" type="date" required><br><br>
+            <!--Phone Number-->
+            <label>Phone Number:-</label>
+            <input for="Phone Number" type="number" required><br><br>
+            <!--Email id-->
+            <label>Email id:-</label>
+            <input for="Email id" type="email" required><br><br>
+            <!--rating the food-->
+            <label for="rating">Choose a rating:</label>
+            <!--select tag-->
+            <select name="rating" id="rating">
+                <option value="excellent">Excellent</option>
+                <option value="best">Best</option>
+                <option value="good">Good</option>
+                <option value="need for improvement">Need For Improvement</option>
+            </select><br><br>
+            <!--Gender-->
+            <label>Gender:-</label><br>
+            <input type="radio" id="male" name="GENDER" value="MALE">
+            <label for="male" id="sample1">Male</label>
+            <input type="radio" id="female" name="GENDER" value="FEMALE">
+            <label for="female" id="sample2">Female</label><br><br>
+            
+            <!--list of items-->
+            <label>Ordered Item from the list:-</label><br>
+            <input type="checkbox" id="Vada" name="Vada" value="Vada">
+            <label for="vehicle2" class="demo1">Vada</label><br>
+            <input type="checkbox" id="Idli" name="Idli" value="Idli">
+            <label for="Idli" class="demo2">Idli</label><br>
+            <input type="checkbox" id="Dosa" name="Dosa" value="Dosa">
+            <label for="Dosa" class="demo3">Dosa</label><br><br>
+
+            <!--feedback-->
+            <label>Feedback:-</label><br>
+            <textarea for="msg" rows="5" cols="30"></textarea><br><br>
+
+            <!--submit button-->
+            <input type="submit">
+        </form>
+    </body>
+    <script>
+        alert("Thank you for your visit to the Feedback section");
+    </script>
+
+</html>
